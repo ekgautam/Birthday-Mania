@@ -101,6 +101,8 @@ import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,ConnectivityReceiver.ConnectivityReceiverListener, DatePickerDialog.OnDateSetListener {
     private static String TAG = MainActivity.class.getSimpleName();
+    //enter email to be sent to.
+    private static String EMAIL = "";
     private static final HashMap<String, String> env_options = new HashMap<>();
 
     static {
@@ -953,7 +955,8 @@ if(position==1)
                     +"Relatives:"+relative.getText()+"\n"+"Date of telecast :"+dateoftelecast
                     +"\nArea :"+area.getText()+"\nCity :"+city.getText();
 
-        SendMail sm = new SendMail(this,"gautam.ekansh336@gmail.com","Birthdaya mania",msg,fileurl);
+        // enter email id to be sent to
+        SendMail sm = new SendMail(this,EMAIL,"Birthdaya mania",msg,fileurl);
         sm.execute();
 
         getpayment();
@@ -964,12 +967,13 @@ if(position==1)
 
         String url = "https://api.instamojo.com/oauth2/token/";
 
+        // instamojo params to be added
         Map<String, Object> params = new HashMap<>();
 		params.put("grant_type", "client_credentials");
-        params.put("client_id", "03wohsEU5GP2JUAawJhoCFyVbHuSjjHeRNS8bk00");
-        params.put("client_secret", "R2jRvL2vgPOt7Z6thnSltCYOlh8HwUPvHz7ZzAdIKcuXDgJZAc1lMJd0SvLUW0RTNL1jdm56SKZBnXPusJwRp2ArD6uks5l6PzghIuLmYIMbrYFnBCuyUvp8KjMGXr91");
-        params.put("username","gautam.ekansh336@gmail.com");
-        params.put("password","ekga@1821");
+        params.put("client_id", "");
+        params.put("client_secret", "");
+        params.put("username","");
+        params.put("password","");
         aq.ajax(url,params, JSONObject.class, this,"jsonCallback");
 
     }

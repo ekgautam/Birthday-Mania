@@ -366,6 +366,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.getUiSettings().setMyLocationButtonEnabled(true);
         mMap.moveCamera(cu);
 
+        // address to final destination
         Marker delhi = mMap.addMarker(new MarkerOptions()
                 .position(DELHI).anchor(anch,anch)
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
