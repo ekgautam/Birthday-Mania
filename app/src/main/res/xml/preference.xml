@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Name Settings">
+        <!-- name Category -->
+
+
+        <ListPreference
+            android:key="key_font_styles_name"
+            android:title="Name Styles"
+            android:dialogTitle="Font Styles for name"
+            android:entries="@array/font_styles"
+            android:entryValues="@array/font_styles_values"
+            android:defaultValue="Demo_ConeriaScript.ttf"
+            />
+        <ListPreference
+            android:key="key_font_size_name"
+            android:title="Name Size"
+            android:dialogTitle="Font Sizes for name"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_values"
+            android:defaultValue="18"
+            />
+
+    </PreferenceCategory>
+
+    <!-- Sub name Category -->
+
+    <PreferenceCategory android:title="Email Settings">
+
+        <ListPreference
+            android:key="key_font_styles_subname"
+            android:title="Email Styles"
+            android:dialogTitle="Font Styles for email"
+            android:entries="@array/font_styles"
+            android:entryValues="@array/font_styles_values"
+            android:defaultValue="Demo_ConeriaScript.ttf"
+            />
+        <ListPreference
+            android:key="key_font_size_subname"
+            android:title="Email Size"
+            android:dialogTitle="Font Sizes for email"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_values"
+            android:defaultValue="18"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Age Settings">
+
+        <ListPreference
+            android:key="key_font_styles_age"
+            android:title="Age Styles"
+            android:dialogTitle="Font Styles for age"
+            android:entries="@array/font_styles"
+            android:entryValues="@array/font_styles_values"
+            android:defaultValue="Demo_ConeriaScript.ttf"
+            />
+
+        <ListPreference
+            android:key="key_font_size_age"
+            android:title="Age Size"
+            android:dialogTitle="Font Sizes for age"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_values"
+            android:defaultValue="18"
+            />
+    </PreferenceCategory>
+    <!-- Cost Category -->
+
+    <PreferenceCategory android:title="Phone Settings">
+
+        <ListPreference
+            android:key="key_font_styles_cost"
+            android:title="Phone Styles"
+            android:dialogTitle="Font Styles for phone numbers"
+            android:entries="@array/font_styles"
+            android:entryValues="@array/font_styles_values"
+            android:defaultValue="Demo_ConeriaScript.ttf"
+            />
+
+        <ListPreference
+            android:key="key_font_size_cost"
+            android:title="Phone Size"
+            android:dialogTitle="Font Sizes for phone"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_values"
+            android:defaultValue="18"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Calendar Settings">
+
+    <ListPreference
+        android:key="key_font_styles_calendar"
+        android:title="Calendar Styles"
+        android:dialogTitle="Font Styles for calendar"
+        android:entries="@array/font_styles"
+        android:entryValues="@array/font_styles_values"
+        android:defaultValue="Demo_ConeriaScript.ttf"
+        />
+
+    <ListPreference
+        android:key="key_font_size_calendar"
+        android:title="Calendar Size"
+        android:dialogTitle="Font Sizes for calendar"
+        android:entries="@array/font_size"
+        android:entryValues="@array/font_size_values"
+        android:defaultValue="18"
+        />
+</PreferenceCategory>
+
+
+
+    <PreferenceCategory android:title="Area Settings">
+
+        <ListPreference
+            android:key="key_font_styles_area"
+            android:title="Area Styles"
+            android:dialogTitle="Font Styles for area"
+            android:entries="@array/font_styles"
+            android:entryValues="@array/font_styles_values"
+            android:defaultValue="Demo_ConeriaScript.ttf"
+            />
+
+        <ListPreference
+            android:key="key_font_size_calendar"
+            android:title="Area Size"
+            android:dialogTitle="Font Sizes for area"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_values"
+            android:defaultValue="18"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="City Settings">
+
+        <ListPreference
+            android:key="key_font_styles_city"
+            android:title="City Styles"
+            android:dialogTitle="Font Styles for city"
+            android:entries="@array/font_styles"
+            android:entryValues="@array/font_styles_values"
+            android:defaultValue="Demo_ConeriaScript.ttf"
+            />
+
+        <ListPreference
+            android:key="key_font_size_city"
+            android:title="City Size"
+            android:dialogTitle="Font Sizes for city"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_values"
+            android:defaultValue="18"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Relatives Settings">
+
+        <ListPreference
+            android:key="key_font_styles_relative"
+            android:title="Relatives Styles"
+            android:dialogTitle="Font Styles for well wishers"
+            android:entries="@array/font_styles"
+            android:entryValues="@array/font_styles_values"
+            android:defaultValue="Demo_ConeriaScript.ttf"
+            />
+
+        <ListPreference
+            android:key="key_font_size_relative"
+            android:title="Relatives Size"
+            android:dialogTitle="Font Sizes for relatives"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_values"
+            android:defaultValue="18"
+            />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

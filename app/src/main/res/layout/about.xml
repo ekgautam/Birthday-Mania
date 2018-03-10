@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/skytv"
+                android:textSize="24sp"
+                android:textColor="@color/primary_color"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Sky Tv Network is one of the Leading Local Network in Vellore City Past Five Years. It covers more than 3 Lakh connections all over the Vellore city. Sky Tv holds more than 25 Sponsors per month."
+                android:ems="10"
+                android:textSize="14sp"
+
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="24sp"
+                android:text="@string/smedia"
+                android:textColor="@color/primary_color"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textSize="14sp"
+                android:text="S Media Ad Agency Successfully played a role in Ad Making, Designing, and Recording Sponsor Programme like “Vaazthalaam Vaanga”. “Vazhthalaam Vaanga” it is also an entertainment Programme. In that we can share our celebrations like “Birthday Party” and “Wedding Day” Functions."
+                android:ems="10"
+
+
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="24sp"
+                android:text="@string/vv"
+                android:textColor="@color/primary_color"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textSize="14sp"
+                android:text="“Vazhthalaam Vaanga” Programme starting at 8 to 9am. Thought that Vazthalaam Vaanga Programme people are celebrating their function Photo’s in that Programme."
+                android:ems="10"
+
+
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:textAlignment="center"
+                android:layout_marginTop="300dp"
+                android:text="\u00a9 Ekansh and Arpit VIT University 2016"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

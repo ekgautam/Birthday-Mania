@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="spinnerStyle">@style/Base.Widget.AppCompat.Spinner.Underlined</item>
+    </style>
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#EFEEED</item>
+        <item name="colorControlActivated">#000</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+    <style name="dropdown" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#A3A19F</item>
+        <item name="colorControlActivated">#000</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Vazthalaam Vaanga</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string-array name="font_size">
+        <item> 18dp </item>
+        <item> 20dp </item>
+        <item> 22dp </item>
+        <item> 24dp </item>
+        <item> 26dp </item>
+        <item> 28dp </item>
+        <item> 30dp </item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item> 18</item>
+        <item> 20</item>
+        <item> 22</item>
+        <item> 24</item>
+        <item> 26</item>
+        <item> 28</item>
+        <item> 30</item>
+    </string-array>
+    <string-array name="font_styles">
+        <item> Noto Sans </item>
+        <item> Comfortaa </item>
+        <item> Oldenburg </item>
+        <item> IndieFlower </item>
+        <item> Handwritten </item>
+    </string-array>
+    <string-array name="font_styles_values">
+        <item> Admiration Pains.ttf</item>
+        <item> Demo_ConeriaScript.ttf</item>
+        <item> master_of_break.ttf</item>
+        <item> orange juice 2.0.ttf</item>
+        <item> VICTORIA SERIF.ttf</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="update_token">Update token</string>
+    <string name="skytv"> SKY TV :</string>
+    <string name="smedia">S Media :</string>
+    <string name="vv">Vazhthalaam Vaanga :</string>
+</resources>

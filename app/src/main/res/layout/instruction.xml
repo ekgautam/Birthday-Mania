@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="1.Wishes Accepted for Current Month and Upcoming Month."
+        android:textSize="14sp"
+
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="2.Image file should be in (Jpeg; jpg; bmp; png;)."
+        android:textSize="14sp"
+
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:text="3.Confirm Your Wishes and Payment.Once you get a message or an email of payment sit back and relax,your wishes will be broadcasted. "
+
+        android:textStyle="bold"/>
+</LinearLayout>
